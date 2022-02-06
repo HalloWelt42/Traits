@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6e613f0059a0330db389b25abd186e96",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "hallowelt42/typearray",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:HalloWelt42/TypeArray.git",
+                "reference": "ac8e3204a60e91670d206f9d8d48fbd9d4095660"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/HalloWelt42/TypeArray/zipball/ac8e3204a60e91670d206f9d8d48fbd9d4095660",
+                "reference": "ac8e3204a60e91670d206f9d8d48fbd9d4095660",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Hallowelt42\\TypeArray\\": "src/",
+                    "Hallowelt42\\TypeArrayDemo\\": "demo/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "HalloWelt42",
+                    "email": "github@texeln.de"
+                }
+            ],
+            "description": "typesafe arrays",
+            "time": "2022-02-06T22:18:33+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "hallowelt42/typearray": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.1"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

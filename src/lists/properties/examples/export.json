@@ -1,0 +1,50 @@
+{
+  "World": {
+    "continents": [
+      {
+        "Continent": {
+          "name": "Afrika",
+          "countries": [
+            {
+              "Country": {
+                "name": "Ägypten"
+              }
+            },
+            {
+              "Country": {
+                "name": "Ghana"
+              }
+            },
+            {
+              "Country": {
+                "name": "Kamerun"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Continent": {
+          "name": "Europa",
+          "countries": [
+            {
+              "Country": {
+                "name": "Detschland"
+              }
+            },
+            {
+              "Country": {
+                "name": "Italien"
+              }
+            },
+            {
+              "Country": {
+                "name": "Frankreich"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

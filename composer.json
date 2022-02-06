@@ -1,0 +1,20 @@
+{
+  "name": "hallowetl42/tlib",
+  "autoload": {
+    "psr-4": {
+      "Hallowetl42\\Tlib\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/HalloWelt42/TypeArray.git"
+    }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "require-dev": {
+    "hallowelt42/typearray": "dev-master"
+  }
+}
