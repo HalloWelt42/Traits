@@ -5,8 +5,10 @@
 Generiertes JSON 
 
 
+* [Basiscode](Main.php) 
 ## Run!
-`php index.php`
+* [php index.php](index.php)
+
 ### Ausgabe:
 #### JSON
 [.. hier!](export.json)
