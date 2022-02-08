@@ -7,25 +7,25 @@ class Main
     public function __construct()
     {
 
-        $countries   = new Countries();
-        $countries[] = new Country('Ägypten');
-        $countries[] = new Country('Ghana');
-        $countries[] = new Country('Kamerun');
+        $continents        = new Continents();
+        $african_countries = new Countries();
+        $europe_countries  = new Countries();
 
-        $continens   = new Continents();
-        $continens[] = new Continent('Afrika', $countries);
+        $african_countries[] = new Country('Ägypten');
+        $african_countries[] = new Country('Ghana');
+        $african_countries[] = new Country('Kamerun');
 
-        $countries   = new Countries();
-        $countries[] = new Country('Detschland');
-        $countries[] = new Country('Italien');
-        $countries[] = new Country('Frankreich');
+        $europe_countries[] = new Country('Deutschland');
+        $europe_countries[] = new Country('Italien');
+        $europe_countries[] = new Country('Frankreich');
 
-        $continens[] = new Continent('Europa', $countries);
+        $continents[] = new Continent('Afrika', $african_countries);
+        $continents[] = new Continent('Europa', $europe_countries);
 
-        $world = new World($continens);
+        $world = new World($continents);
 
         print_r(
-            json_encode($world,JSON_PRETTY_PRINT+JSON_UNESCAPED_UNICODE)
+            json_encode($world, JSON_PRETTY_PRINT + JSON_UNESCAPED_UNICODE)
         );
 
 
