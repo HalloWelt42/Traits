@@ -7,6 +7,7 @@ class Main
     public function __construct()
     {
 
+        // definition
         $continents        = new Continents();
         $african_countries = new Countries();
         $europe_countries  = new Countries();
@@ -24,6 +25,7 @@ class Main
 
         $world = new World($continents);
 
+        // output
         print_r(
             json_encode($world, JSON_PRETTY_PRINT + JSON_UNESCAPED_UNICODE)
         );
